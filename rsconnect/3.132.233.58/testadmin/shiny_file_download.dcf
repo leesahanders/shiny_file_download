@@ -1,0 +1,13 @@
+name: shiny_file_download
+title: shiny_file_download
+username: testadmin
+account: testadmin
+server: 3.132.233.58
+hostUrl: http://3.132.233.58/__api__
+appId: 11
+bundleId: 13
+url: http://3.132.233.58/content/ddc40401-9a9a-4eb0-b1ca-bd25ecbd9585/
+when: 1653336825.09958
+lastSyncTime: 1653336825.09959
+asMultiple: FALSE
+asStatic: FALSE
