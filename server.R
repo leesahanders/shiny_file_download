@@ -1,3 +1,5 @@
+library(stringi)
+
 server <- function(input, output) {
   
   # Reactive value for selected dataset ----
