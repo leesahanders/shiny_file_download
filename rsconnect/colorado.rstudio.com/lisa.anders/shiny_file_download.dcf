@@ -5,9 +5,7 @@ account: lisa.anders
 server: colorado.rstudio.com
 hostUrl: https://colorado.rstudio.com/rsc/__api__
 appId: 11579
-bundleId: 57547
+bundleId: 57555
 url: https://colorado.rstudio.com/rsc/content/d3accc20-e6e4-445a-b4f0-1853f5f0be96/
-when: 1655150277.32504
-lastSyncTime: 1655150277.32504
-asMultiple: FALSE
-asStatic: FALSE
+when: 1655154923.08778
+lastSyncTime: 1655154923.08778

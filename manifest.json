@@ -1046,10 +1046,10 @@
   },
   "files": {
     ".Rprofile": {
-      "checksum": "4dc04c714ef82f7fcecf710ac8c8fbca"
+      "checksum": "5f4789f8684fd97e7950b8c02a067f18"
     },
     "R/deploy.R": {
-      "checksum": "ac6d98a23e3f14b58b13d554e1682da1"
+      "checksum": "34a6473ba8d3169d59faf4321d55c438"
     },
     "README.md": {
       "checksum": "361d9c1d8ffd286d8fa7bf0dbd11b135"
