@@ -1046,13 +1046,13 @@
   },
   "files": {
     ".Rprofile": {
-      "checksum": "3fd18f2b6c0e483e9d05fec477a993f9"
+      "checksum": "4dc04c714ef82f7fcecf710ac8c8fbca"
     },
     "R/deploy.R": {
-      "checksum": "45207f0d8b56d948a7d4cf4a506f37c5"
+      "checksum": "ac6d98a23e3f14b58b13d554e1682da1"
     },
     "README.md": {
-      "checksum": "1a1d38f5523a4a6ff7e50b90bdcc1f83"
+      "checksum": "361d9c1d8ffd286d8fa7bf0dbd11b135"
     },
     "server.R": {
       "checksum": "89ec727c5e493701d41d9158023169fd"
