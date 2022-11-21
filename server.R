@@ -1,4 +1,10 @@
 library(stringi)
+library(arrow)
+
+
+#options(repos = c(REPO_NAME = "https://colorado.rstudio.com/rspm/all/__linux__/focal/latest"))
+
+
 
 server <- function(input, output) {
   

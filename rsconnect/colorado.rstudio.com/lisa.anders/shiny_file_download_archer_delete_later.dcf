@@ -1,0 +1,13 @@
+name: shiny_file_download_archer_delete_later
+title: shiny_file_download archer delete later
+username: lisa.anders
+account: lisa.anders
+server: colorado.rstudio.com
+hostUrl: https://colorado.rstudio.com/rsc/__api__
+appId: 13656
+bundleId: 65363
+url: https://colorado.rstudio.com/rsc/content/93b66640-0092-423f-a207-1e85f80f59e6/
+when: 1667856097.83304
+lastSyncTime: 1667856097.83306
+asMultiple: FALSE
+asStatic: FALSE

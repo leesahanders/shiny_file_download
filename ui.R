@@ -25,6 +25,7 @@ ui <- fluidPage(
     ),
     
     # Main panel for displaying outputs ----
+    
     mainPanel(
       
       tableOutput("table")
