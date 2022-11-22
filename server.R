@@ -11,19 +11,22 @@
 #   CRAN = "https://cloud.r-project.org"
 # ))
 
-
-
-
 library(shiny)
 library(usethis)
+library(remotes)
 library(renv) #renv::upgrade(version = "0.16.0")
 #library(talkingheadr) #renv::install("dgruenew/talkingheadr")
+
 # Private package from: https://rstudio.slack.com/archives/C04280LRVQT/p1667430400292769?thread_ts=1667422300.132889&cid=C04280LRVQT 
 # https://github.com/dgruenew/talkingheadr
 
-## These are some challenging packages
-#library(stringi)
-#library(arrow)
+# Create a GitHub PAT via R with usethis::create_github_token() 
+# Set it with gitcreds::gitcreds_set() and Sys.setenv(GITHUB_PAT = "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") 
+# Store as env variable with usethis::edit_r_environ()
+# Follow: https://carpentries.github.io/sandpaper-docs/github-pat.html 
+# For package installation follow: https://rstudio.github.io/renv/reference/install.html?q=authentica#remotes-syntax 
+# Test our pat with: remotes::install_github("r-lib/conflicted") 
+# Install our private package: renv::install("dgruenew/talkingheadr")
 
 # # define a function providing authentication
 # options(renv.auth = function(package, record) {
@@ -31,14 +34,16 @@ library(renv) #renv::upgrade(version = "0.16.0")
 #     return(list(GITHUB_PAT = "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"))
 # })
 
-#Sys.setenv(GITHUB_PAT = "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")
 
-# gitcreds::gitcreds_set()
+#options(renv.auth.talkingheadr = list(GITHUB_PAT = "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"))
+#renv:::renv_remotes_resolve("github::dgruenew/talkingheadr")
+#renv::install("dgruenew/talkingheadr")
 
-# Create a GitHub PAT via R with usethis::create_github_token() 
-# Store as env variable with usethis::edit_r_environ()
-# Follow: https://carpentries.github.io/sandpaper-docs/github-pat.html 
-# For package installation follow: https://rstudio.github.io/renv/reference/install.html?q=authentica#remotes-syntax 
+## These are some challenging packages
+#library(stringi)
+#library(arrow)
+
+
 
 server <- function(input, output) {
   
