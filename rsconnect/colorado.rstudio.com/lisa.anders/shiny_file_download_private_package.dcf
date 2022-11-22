@@ -1,0 +1,13 @@
+name: shiny_file_download_private_package
+title: shiny_file_download private package
+username: lisa.anders
+account: lisa.anders
+server: colorado.rstudio.com
+hostUrl: https://colorado.rstudio.com/rsc/__api__
+appId: 13874
+bundleId: 66110
+url: https://colorado.rstudio.com/rsc/content/841e3dc0-88a9-4e7c-8eb4-d944fa9463dc/
+when: 1669138921.27848
+lastSyncTime: 1669138921.2785
+asMultiple: FALSE
+asStatic: FALSE
