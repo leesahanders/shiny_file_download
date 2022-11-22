@@ -1,8 +1,22 @@
 ## Setup
 #options(repos = c(REPO_NAME = "https://colorado.rstudio.com/rspm/all/__linux__/focal/latest"))
+#options(repos = c(RSPM = "https://colorado.rstudio.com/rspm/all/__linux__/focal/latest", PPM = ""))
+#options(repos = c(REPO_NAME = "https://packagemanager.posit.co/cran/latest"))
+
+# options(repos = c(
+#   CRAN_RSPM = "https://colorado.rstudio.com/rspm/all/__linux__/focal/latest",
+#   #Internal = "https://aboriginal-pogona.staging.eval.rstudio.com/packages/internal/latest",
+#   #binary = "https://packagemanager.rstudio.com/all/__linux__/focal/latest",
+#   #source = "https://packagemanager.rstudio.com/all/latest",
+#   CRAN = "https://cloud.r-project.org"
+# ))
+
+
+
+
 library(shiny)
 library(usethis)
-library(renv)
+library(renv) #renv::upgrade(version = "0.16.0")
 #library(talkingheadr) #renv::install("dgruenew/talkingheadr")
 # Private package from: https://rstudio.slack.com/archives/C04280LRVQT/p1667430400292769?thread_ts=1667422300.132889&cid=C04280LRVQT 
 # https://github.com/dgruenew/talkingheadr
@@ -16,6 +30,8 @@ library(renv)
 #   if (package == "talkingheadr")
 #     return(list(GITHUB_PAT = "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"))
 # })
+
+#Sys.setenv(GITHUB_PAT = "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")
 
 # gitcreds::gitcreds_set()
 
