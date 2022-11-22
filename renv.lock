@@ -508,6 +508,19 @@
       "Hash": "34c16f1ef796057bfa06d3f4ff818a5d",
       "Requirements": []
     },
+    "talkingheadr": {
+      "Package": "talkingheadr",
+      "Version": "0.0.1",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteUsername": "dgruenew",
+      "RemoteRepo": "talkingheadr",
+      "RemoteRef": "main",
+      "RemoteSha": "0894affffcd15a435747dbe7b23eb7d73920a79d",
+      "Hash": "8925c08f68b69dcf56289e5541403142",
+      "Requirements": []
+    },
     "usethis": {
       "Package": "usethis",
       "Version": "2.1.6",

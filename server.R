@@ -15,6 +15,7 @@ library(shiny)
 library(usethis)
 library(remotes)
 library(renv) #renv::upgrade(version = "0.16.0")
+library(talkingheadr)
 #library(talkingheadr) #renv::install("dgruenew/talkingheadr")
 
 # Private package from: https://rstudio.slack.com/archives/C04280LRVQT/p1667430400292769?thread_ts=1667422300.132889&cid=C04280LRVQT 
