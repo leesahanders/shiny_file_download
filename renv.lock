@@ -4,7 +4,7 @@
     "Repositories": [
       {
         "Name": "REPO_NAME",
-        "URL": "https://colorado.rstudio.com/rspm/all/latest"
+        "URL": "https://packagemanager.posit.co/cran/latest"
       }
     ]
   },
@@ -93,6 +93,22 @@
       "Repository": "RSPM",
       "Hash": "b6e3e947d1d7ebf3d2bdcea1bde63fe7",
       "Requirements": []
+    },
+    "conflicted": {
+      "Package": "conflicted",
+      "Version": "1.1.0.9000",
+      "Source": "GitHub",
+      "RemoteType": "github",
+      "RemoteHost": "api.github.com",
+      "RemoteRepo": "conflicted",
+      "RemoteUsername": "r-lib",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "1fd25ebee5edfe2887664c730bedb99ea8785332",
+      "Hash": "911b30dbdc00e969b26d776b51cbae3a",
+      "Requirements": [
+        "memoise",
+        "rlang"
+      ]
     },
     "crayon": {
       "Package": "crayon",
@@ -506,19 +522,6 @@
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "34c16f1ef796057bfa06d3f4ff818a5d",
-      "Requirements": []
-    },
-    "talkingheadr": {
-      "Package": "talkingheadr",
-      "Version": "0.0.1",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteUsername": "dgruenew",
-      "RemoteRepo": "talkingheadr",
-      "RemoteRef": "main",
-      "RemoteSha": "0894affffcd15a435747dbe7b23eb7d73920a79d",
-      "Hash": "8925c08f68b69dcf56289e5541403142",
       "Requirements": []
     },
     "usethis": {
