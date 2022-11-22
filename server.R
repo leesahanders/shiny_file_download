@@ -1,24 +1,23 @@
 ## Setup
-
+#options(repos = c(REPO_NAME = "https://colorado.rstudio.com/rspm/all/__linux__/focal/latest"))
 library(shiny)
 library(usethis)
 library(renv)
 #library(talkingheadr) #renv::install("dgruenew/talkingheadr")
+# Private package from: https://rstudio.slack.com/archives/C04280LRVQT/p1667430400292769?thread_ts=1667422300.132889&cid=C04280LRVQT 
+# https://github.com/dgruenew/talkingheadr
 
 ## These are some challenging packages
 #library(stringi)
 #library(arrow)
 
-# Private package from: https://rstudio.slack.com/archives/C04280LRVQT/p1667430400292769?thread_ts=1667422300.132889&cid=C04280LRVQT 
-# https://github.com/dgruenew/talkingheadr
+# # define a function providing authentication
+# options(renv.auth = function(package, record) {
+#   if (package == "talkingheadr")
+#     return(list(GITHUB_PAT = "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"))
+# })
 
-#options(repos = c(REPO_NAME = "https://colorado.rstudio.com/rspm/all/__linux__/focal/latest"))
-
-# define a function providing authentication
-options(renv.auth = function(package, record) {
-  if (package == "talkingheadr")
-    return(list(GITHUB_PAT = "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"))
-})
+# gitcreds::gitcreds_set()
 
 # Create a GitHub PAT via R with usethis::create_github_token() 
 # Store as env variable with usethis::edit_r_environ()
@@ -26,14 +25,6 @@ options(renv.auth = function(package, record) {
 # For package installation follow: https://rstudio.github.io/renv/reference/install.html?q=authentica#remotes-syntax 
 
 server <- function(input, output) {
-  
-  # Reactive value for selected dataset ----
-  # datasetInput <- reactive({
-  #   switch(input$dataset,
-  #          "rock" = rock,
-  #          "pressure" = pressure,
-  #          "cars" = cars)
-  # })
   
   #Check size of file with object.size()
   datasetInput <- reactive({
