@@ -1,0 +1,14 @@
+name: shiny_file_download
+title: shiny_file_download
+username: linc.stoel
+account: linc.stoel
+server: colorado.posit.co
+hostUrl: https://colorado.posit.co/rsc/__api__
+appId: 13946
+bundleId: 66457
+url: https://colorado.posit.co/rsc/content/6edc4a05-ccf5-439a-a334-a0f5045462f5/
+when: 1669928166.55816
+lastSyncTime: 1669928166.5582
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .Rprofile|.Ruserdata/linc.stoel/.Rhistory|.Ruserdata/tayler.moosa/.Rhistory

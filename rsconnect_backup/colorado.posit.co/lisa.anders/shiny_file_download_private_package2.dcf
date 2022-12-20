@@ -1,0 +1,13 @@
+name: shiny_file_download_private_package2
+title: shiny_file_download private package
+username: lisa.anders
+account: lisa.anders
+server: colorado.posit.co
+hostUrl: https://colorado.posit.co/rsc/__api__
+appId: 13875
+bundleId: 66112
+url: https://colorado.posit.co/rsc/content/88adfbd4-879f-4e4a-be61-e73afd32ef9a/
+when: 1669139121.29595
+lastSyncTime: 1669139121.29597
+asMultiple: FALSE
+asStatic: FALSE

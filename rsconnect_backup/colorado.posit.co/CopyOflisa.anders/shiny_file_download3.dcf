@@ -1,0 +1,14 @@
+name: shiny_file_download3
+title: shiny_file_download
+username: lisa.anders
+account: lisa.anders
+server: colorado.rstudio.com
+hostUrl: https://colorado.rstudio.com/rsc/__api__
+appId: 13910
+bundleId: 66370
+url: https://colorado.rstudio.com/rsc/content/17702ed7-a539-4c7c-bc53-23fa015426a9/
+when: 1669735428.07512
+lastSyncTime: 1669735428.07513
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .Rprofile|.Ruserdata/tayler.moosa/.Rhistory

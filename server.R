@@ -15,7 +15,7 @@ library(shiny)
 library(usethis)
 library(remotes)
 library(renv) #renv::upgrade(version = "0.16.0")
-library(conflicted) #remotes::install_github("r-lib/conflicted") 
+#library(conflicted) #remotes::install_github("r-lib/conflicted") 
 #library(talkingheadr) #renv::install("dgruenew/talkingheadr")
 
 # reference: https://community.rstudio.com/t/setting-github-pat-for-rsconnect/127444 and https://docs.posit.co/connect/admin/r/package-management/#from-private-git-repositories 
