@@ -94,22 +94,6 @@
       "Hash": "b6e3e947d1d7ebf3d2bdcea1bde63fe7",
       "Requirements": []
     },
-    "conflicted": {
-      "Package": "conflicted",
-      "Version": "1.1.0.9000",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "conflicted",
-      "RemoteUsername": "r-lib",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "1fd25ebee5edfe2887664c730bedb99ea8785332",
-      "Hash": "911b30dbdc00e969b26d776b51cbae3a",
-      "Requirements": [
-        "memoise",
-        "rlang"
-      ]
-    },
     "crayon": {
       "Package": "crayon",
       "Version": "1.5.2",
