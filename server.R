@@ -1,7 +1,5 @@
 ## Setup
-#options(repos = c(REPO_NAME = "https://colorado.rstudio.com/rspm/all/__linux__/focal/latest"))
-#options(repos = c(RSPM = "https://colorado.rstudio.com/rspm/all/__linux__/focal/latest", PPM = ""))
-#options(repos = c(REPO_NAME = "https://packagemanager.posit.co/cran/latest"))
+# options(repos = c(REPO_NAME = "https://colorado.rstudio.com/rspm/all/__linux__/focal/latest"))
 
 # options(repos = c(
 #   CRAN_RSPM = "https://colorado.rstudio.com/rspm/all/__linux__/focal/latest",
@@ -30,7 +28,7 @@ library(renv) #renv::upgrade(version = "0.16.0")
 # For publishing to Connect: Try setting the option packrat.authenticated.downloads.use.renv to TRUE, or installing the httr package.
 
 #options(packrat.authenticated.downloads.use.renv = TRUE)
-#options(renv.auth.talkingheadr = list(GITHUB_PAT = "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"))
+#options(renv.auth.talkingheadr = list(GITHUB_PAT = ""))
 #renv:::renv_remotes_resolve("github::dgruenew/talkingheadr")
 #renv::install("dgruenew/talkingheadr")
 
